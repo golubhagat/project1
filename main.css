@@ -1,0 +1,85 @@
+
+  header {
+  background-color: #4267b2;
+  height: 30px;
+}
+#wrapper {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+#main,
+#menu,
+#sidebar {
+  height: 600px;
+  background-color: #e9ebee;
+}
+#header {
+    background-color: #4267b2;
+    color: white;
+}
+.white-text {
+  color: white!important;
+
+}
+p {
+	margin: 0px;
+}
+.comment {
+    margin: 0;
+}
+.list-heading {
+    padding: 20px 15px 0 15px;
+}
+.panel-body .glyphicon {
+    margin-left: 10px;
+    margin-right: 4px;
+}
+.text-post {
+    margin-bottom: 15px;
+    margin-top: 0;
+    text-align:justify;
+}
+.image-post {
+    margin-bottom: 15px;
+}
+#main {
+    overflow: auto;
+}
+
+#main::-webkit-scrollbar {
+    display: none;
+}
+.media-object{
+  display:inline;
+}
+
+
+.list-group-item-heading{
+  display:inline;
+  color:blue !important;
+  text-align: justify;
+}
+.list-group-item-text{
+text-align:justify;
+color:black!important;
+padding-left: 8px;
+}
+
+.media-object{
+  height:34px;
+  padding-right: 4px;
+  vertical-align: top;
+}
+.jai-ho{
+
+  height:18px;
+}
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover{
+  background-color:#e9ebee;
+  border-color:#e9ebee;
+}
+.fa-line-chart{
+
+  background-color: skyblue!important;
+}

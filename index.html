@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>project 1</title>
+
+    <!-- Bootstrap -->
+
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="main.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/font-awesome.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+       <div class="container">
+         <nav class="navbar navbar-default navbar-fixed-top" id="header">
+   <div class="container-fluid ">
+     <!-- Brand and toggle get grouped for better mobile display -->
+     <div class="navbar-header">
+       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+         <span class="sr-only">Toggle navigation</span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+       </button>
+       <a class="navbar-brand white-text" href="#">Friendly</a>
+     </div>
+
+     <!-- Collect the nav links, forms, and other content for toggling -->
+     <div class="collapse navbar-collapse  " id="bs-example-navbar-collapse-1">
+       <ul class="nav navbar-nav navbar-right">
+    <li><a href="#"class="white-text"> <img class="media-object" src="http://i.imgur.com/MHI2TMS.jpg" alt="...">  Dheeraj </a></li>
+   <li><a href="#"class="white-text">            Home</a></li>
+   <li><a href="#"class="white-text"> <img class="jai-ho" src="data:image/jpeg;base64,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" alt="..."></a></li>
+   <li><a href="#"class="white-text"><span class="glyphicon glyphicon glyphicon-envelope" aria-hidden="true"></span></a></li>
+   <li><a href="#"class="white-text"><span class="glyphicon glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
+   <li><a href="#"class="white-text"><span class="glyphicon glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span></a></li>
+
+
+
+           </ul>
+
+
+       <form class="navbar-form navbar-left">
+         <div class="form-group">
+           <input type="text" class="form-control" placeholder="Search">
+         </div>
+         <button type="submit" class="btn btn-default">Submit</button>
+       </form>
+
+
+
+   </div><!-- /.container-fluid -->
+ </nav>
+
+   <div class="container-fluid" id="wrapper">
+     <div class="row ">
+       <div class="hidden-xs col-sm-4 col-md-3">
+  <div id="menu">
+         <ul class="nav nav-pills nav-stacked">
+                 <li role="presentation"><a href="#"><img class="media-object" src="http://i.imgur.com/MHI2TMS.jpg" alt="...">  Dheeraj Kammand</a></li>
+                 <li role="presentation"><a href="#"><span class="glyphicon glyphicon glyphicon-list-alt" aria-hidden="true"></span>  News Feed ...</a></li>
+                 <li role="presentation"><a href="#"><span class="glyphicon glyphicon glyphicon-envelope" aria-hidden="true"></span>  Messenger</a></li>
+               </ul>
+               <ul class="nav nav-pills nav-stacked">
+                 <p class="list-heading"> SHORTCUTS</p>
+       <li role="presentation"><a href="#"><i class="fa fa-users" aria-hidden="true"></i>  Galaxy global group ... 6</a></li>
+       <li role="presentation"><a href="#"><span class="glyphicon glyphicon glyphicon-apple" aria-hidden="true"></span>  Dash:learn to code   ... 2</a></li>
+       <li role="presentation"><a href="#"><span class="glyphicon glyphicon glyphicon-plane" aria-hidden="true"></span>  ISRO</a></li>
+     </ul>
+     <ul class="nav nav-pills nav-stacked">
+       <P class="list-heading" >EXPLORE</P>
+       <li role="presentation"><a href="#">Events</a></li>
+       <li role="presentation"><a href="#"><i class="fa fa-file-text" aria-hidden="true"></i>  Pages<span class="badge">18</span></a> </li>
+       <li role="presentation"><a href="#"><i class="fa fa-users" aria-hidden="true"></i>  Groups</a></li>
+        <li role="presentation"><a href="#"><span class="glyphicon glyphicon glyphicon-bookmark" aria-hidden="true"></span>  Saved</a></li>
+       <li role="presentation"><a href="#"><span class="glyphicon glyphicon glyphicon-picture" aria-hidden="true"></span>  Pictures</a></li>
+     </ul>
+       </div></div>
+    <div class="col-xs-12 col-sm-8 col-md-6"><div id="main">
+         <div class="panel panel-default">
+   <div class="panel-heading">
+
+       <h3 class="panel-title"><a href="#">  <img class="media-object" src="data:image/jpeg;base64,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" alt="...">  Subash Chander</a></h3>
+   </div>
+   <div class="panel-body">
+      <div><h3 class="text-post"> </h3></div>
+      <div>
+           <blockquote>
+             <p>Life has so many different chapters. One bad chapter does not mean it's the end of the book.Keeping work hard.</p>
+             <footer>Dheeraj Kammand</footer>
+           </blockquote>
+       </div>
+
+   <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+          <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
+          <span><span class="glyphicon glyphicon-share" aria-hidden="true"></span>Share</span>
+
+      </div>
+ </div>
+   <div class="panel-footer"><input placeholder="Write a comment..." style="width: 100%;margin-top: 15px;"></div>
+
+ </div>
+
+ <div class="panel panel-default">
+<div class="panel-heading">
+
+<h3 class="panel-title"><a href="#">  <img class="media-object" src="data:image/jpeg;base64,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" alt="...">  Varun Mehta</a></h3>
+</div>
+<div class="panel-body">
+ <div>
+      <img src="https://vignette2.wikia.nocookie.net/logopedia/images/0/05/Google_Earth1.png/revision/latest?cb=20090622173002" class="img-responsive image-post" alt="Responsive image">
+
+  <div>
+       <blockquote>
+         <p>Google Earth</p>
+
+       </blockquote>
+   </div>
+
+<div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+  <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
+    <span><span class="glyphicon glyphicon-share" aria-hidden="true"></span>Share</span>
+</div>
+</div>
+<div class="panel-footer">
+  <div class="media">
+    <div class="media-left">
+      <a href="#">
+        <img class="media-object" src="http://i.imgur.com/OZCZlKB.jpg" alt="...">
+      </a>
+    </div>
+    <div class="media-body">
+      <h4 class="media-heading "><p class="comment"> <span><a href="#">   Neeraj Kumar </a></span> Incredible! </p>
+        <div>
+       <small>	<span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span></small>
+       </div>
+      </h4>
+
+    </div>
+  </div>
+
+
+  <div class="media">
+    <div class="media-left">
+      <a href="#">
+        <img class="media-object" src="https://scontent.fblr4-1.fna.fbcdn.net/v/t1.0-9/17862730_272532403196273_7892321916030246562_n.jpg?oh=e370a22bb8490613c49b604b2118e218&oe=5A0B0468" alt="...">
+      </a>
+    </div>
+    <div class="media-body">
+      <h4 class="media-heading "><p class="comment"> <span><a href="#">Rahul Sangra </a></span> Wow, Fantastic! </p>
+        <div>
+       <small>	<span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span></small>
+       </div>
+      </h4>
+
+    </div>
+  </div>
+
+
+<input placeholder="Write a comment..." style="width: 100%;margin-top: 15px;">
+
+
+
+
+
+</div>
+</div>
+</div><!--this was missing-->
+<div class="panel panel-default">
+<div class="panel-heading">
+
+<h3 class="panel-title"><a href="#">  <img class="media-object" src="data:image/jpeg;base64,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" alt="...">  Baseer Pathan</a></h3>
+</div>
+<div class="panel-body">
+  <div><h3 class="text-post" >
+
+    <!-- 16:9 aspect ratio -->
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FFMX.Gladiator.Games%2Fvideos%2F10155392888267345%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden"
+      scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+
+
+    </div>
+</h3></div>
+
+<div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+<span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
+  <span><span class="glyphicon glyphicon-share" aria-hidden="true"></span>Share</span>
+</div>
+</div>
+<div class="panel-footer"><input placeholder="Write a comment..." style="width: 100%;margin-top: 15px;"></div>
+</div>
+</div></div>
+
+
+      <div class="hidden-xs hidden-sm col-md-3"><div id="sidebar">
+        <div>
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab"><i class="fa fa-university" aria-hidden="true"></i></a></li>
+    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab"><i class="fa fa-flask" aria-hidden="true"></i></a></li>
+    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab"><i class="fa fa-futbol-o" aria-hidden="true"></i></a></li>
+    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab"><i class="fa fa-film" aria-hidden="true"></i></a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home"><div class="list-group">
+  <a href="#" class="list-group-item active">
+  <i class="fa fa-line-chart" aria-hidden="true"></i>
+    <h4 class="list-group-item-heading">GST effect on bike prices in India</h4>
+    <p class="list-group-item-text">A uniform Goods and Service Tax(GST) will come into effect from 1 July 2017.</p>
+
+    <div class="list-group">
+  <a href="#" class="list-group-item active">
+
+<i class="fa fa-line-chart" aria-hidden="true"></i>
+
+    <h4 class="list-group-item-heading">Starting Oct, driverless metro every 100 secs for Delhiites</h4>
+    <p class="list-group-item-text">Come October and Delhiites would be travelling  in 'driverless' magenta metros</p>
+
+    <div class="list-group">
+  <a href="#" class="list-group-item active">
+
+<i class="fa fa-line-chart" aria-hidden="true"></i>
+
+    <h4 class="list-group-item-heading">The Apple car is no longer a rumour</h4>
+    <p class="list-group-item-text">Rumours about Apple making its own self-driving car had been in the air for quite sometime,but these were just rumours until recently.</p>
+  </a>
+</div>
+
+</a>
+</div>
+  </a>
+</div></div>
+</div>
+
+
+
+
+
+
+
+
+
+    <div role="tabpanel" class="tab-pane" id="profile"></div>
+    <div role="tabpanel" class="tab-pane" id="messages"></div>
+    <div role="tabpanel" class="tab-pane" id="settings"></div>
+  </div>
+
+</div>
+
+
+
+      </div></div>
+
+
+
+
+<div id="adjust-acc">
+
+       <footer>
+          <ul class="nav nav-pills pull-right">
+       <li role="presentation "><a href="# ">About Us</a></li>
+       <li role="presentation "><a href="# ">Home</a></li>
+       <li role=" presentation "><a href="# ">Privacy</a></li>
+       <li role="presentation "><a href="# ">Advertising</a></li>
+       <li role="presentation "><a href="# ">Cookies</a></li>
+       <li role="presentation "><a href="# ">Ad Choices</a></li>
+     </ul>
+   </footer>
+       </div>
+</div>
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <!-- Include all compiled plugins (below), or include individual files as needed -->
+   <script src="js/bootstrap.min.js"></script>
+ </body>
+</html>
